@@ -1,0 +1,73 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.head {
+  background: #43281c;
+  color: #fbf2c0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+}
+
+.logo {
+  height: 40px;
+}
+
+.example-group {
+  position: relative;
+  display: inline-block;
+}
+
+.example-input {
+  border-color: crimson;
+  padding: 8px;
+  border-radius: 5px;
+}
+
+.input-label {
+  background-color: white;
+  color: crimson;
+  font-size: 11px;
+  position: absolute;
+  left: 25px;
+  top: -7px;
+  padding: 0 2px;
+}
+
+.order-details {
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.items-details {
+  background: #eee1d5;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.name-payment-group {
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-items: space-between;
+}
+
+.name-details {
+  padding: 20px;
+  background: #eee1d5;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.payment-details {
+  padding: 20px;
+  background: #eee1d5;
+  margin-top: 20px;
+}
